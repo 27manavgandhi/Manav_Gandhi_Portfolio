@@ -14,7 +14,7 @@ export default function Home() {
       <Paragraph className="max-w-xl mt-4">
         I&apos;m a Software Engineer that loves{" "}
         <Highlight>building products</Highlight> and {" "}<Highlight>web apps</Highlight> that can impact
-        millions of lives
+        millions of lives.
       </Paragraph>
       <WorkHistory />
     </Container>
