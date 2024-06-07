@@ -36,7 +36,7 @@ export const Sidebar = () => {
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
             </div>
-            <Badge href="/resume" text="Read Resume" />
+            <Badge href="https://drive.google.com/file/d/1adujCUJY0wQBiSTMzAxvhuWaBmS4Gjox/view?usp=sharing" text="Read Resume" />
           </motion.div>
         )}
       </AnimatePresence>
@@ -109,15 +109,15 @@ const SidebarHeader = () => {
   return (
     <div className="flex space-x-2">
       <Image
-        src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80"
+        src="https://drive.google.com/uc?export=view&id=1N7OGoHTn6JNTrOgTjKJwLoTCVQQBr1eY"
         alt="Avatar"
         height="40"
         width="40"
         className="object-cover object-top rounded-full flex-shrink-0"
       />
       <div className="flex text-sm flex-col">
-        <p className="font-bold text-primary">John Doe</p>
-        <p className="font-light text-secondary">Developer</p>
+        <p className="font-bold text-primary">Manav Gandhi</p>
+        <p className="font-light text-secondary">Software Engineer</p>
       </div>
     </div>
   );
