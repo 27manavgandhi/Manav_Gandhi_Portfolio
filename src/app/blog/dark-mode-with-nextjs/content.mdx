@@ -25,18 +25,24 @@ In this tutorial, we will be using Next.js and Tailwind CSS to create a dark mod
 
 To get started, we need to install both Next.js and Tailwind CSS. We can install Next.js by running the following command in our terminal:
 
+<CodeWindow title="BoxesContainer.tsx">
 ```
     npx create-next-app my-app
 ```
+</CodeWindow>
 
 Once Next.js is installed, we can install Tailwind CSS by running the following command:
-
+<CodeWindow title="BoxesContainer.tsx">
+```
     npm install tailwindcss
+```
+</CodeWindow>
 
 After installing Tailwind CSS, we need to create the basic structure of our application. We can do this by creating a new file called `index.js` in the `pages` directory of our project.
 
 In this file, we can add some basic HTML to display our content:
 
+<CodeWindow title="BoxesContainer.tsx">
 ```
     <!DOCTYPE html>
     <html>
@@ -54,11 +60,13 @@ In this file, we can add some basic HTML to display our content:
       </body>
     </html>
 ```
+</CodeWindow>
 
 We can then add some basic styling to our application using Tailwind CSS. We can do this by creating a new file called `styles.css` in the `styles` directory of our project.
 
 In this file, we can add the following code to apply some basic styles to our application:
 
+<CodeWindow title="BoxesContainer.tsx">
 ```
     @tailwind base;
     @tailwind components;
@@ -69,6 +77,7 @@ In this file, we can add the following code to apply some basic styles to our ap
     .container {
       max-width: 800px;
 ```
+</CodeWindow>
 
 ## Implementing the Dark Mode Toggle
 
@@ -76,6 +85,7 @@ Now that our basic application structure and styling are complete, we can move o
 
 To do this, we need to create a state variable to track the user's preferred theme. We can do this by adding the following code to our `index.js` file:
 
+<CodeWindow title="BoxesContainer.tsx">
 ```
     import { useState from "react";
 
@@ -95,6 +105,7 @@ To do this, we need to create a state variable to track the user's preferred the
         </div>
       );
 ```
+</CodeWindow>
 
 In this code, we are using the `useState` hook from React to create a state variable called `theme`. The default value of `theme` is set to `"light"`.
 
@@ -108,6 +119,7 @@ Now that we have implemented the basic functionality of our dark mode toggle, we
 
 First, we can persist the user's theme preference using localStorage. We can do this by adding the following code to our `index.js` file:
 
+<CodeWindow title="BoxesContainer.tsx">
 ```
     import { useEffect, useState from "react";
 
@@ -137,11 +149,13 @@ First, we can persist the user's theme preference using localStorage. We can do 
         </div>
       );
 ```
+</CodeWindow>
 
 In this code, we are using the `useEffect` hook from React to load the user's preferred theme from localStorage when the component mounts. We are also using another `useEffect` hook to save the user's preferred theme to localStorage whenever it changes.
 
 Next, we can add some animations to our toggle button to enhance user feedback. We can do this by adding the following code to our `styles.css` file:
 
+<CodeWindow title="BoxesContainer.tsx">
 ```
     @tailwind base;
     @tailwind components;
@@ -183,11 +197,13 @@ Next, we can add some animations to our toggle button to enhance user feedback. 
     .theme-toggle-button:hover::after {
       transform: scale(1.2);
 ```
+</CodeWindow>
 
 In this code, we are using CSS to create a toggle button with two states - light and dark. We are also using CSS transitions to animate the button when it is hovered over.
 
 Finally, we can implement a media query to automatically switch between light and dark themes based on the user's device settings. We can do this by adding the following code to our `styles.css` file:
 
+<CodeWindow title="BoxesContainer.tsx">
 ```
     @tailwind base;
     @tailwind components;
@@ -201,6 +217,7 @@ Finally, we can implement a media query to automatically switch between light an
        }
     }
 ```
+</CodeWindow>
 
 In this code, we are using a media query to check for the user's preferred color scheme. If the user has selected a dark color scheme, we apply a dark background color and change the text color to white.
 
