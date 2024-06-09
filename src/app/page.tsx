@@ -12,15 +12,14 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos;m Manav Gandhi</Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a Software Engineer that loves{" "}
-        <Highlight>building products</Highlight> and {" "}
-        <Highlight>web apps</Highlight> that can impact
+        I&apos;m a Software Engineer passionate about{" "}
+        <Highlight>creating products</Highlight> and {" "}
+        <Highlight>web applications</Highlight> that can impact
         millions of lives
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
         I&apos;m a software engineer with{" "}
-        <Highlight>2 years of internship experience</Highlight> building scalable web apps
-        that are performance optimized and good looking.
+        <Highlight>2 years of internship experience</Highlight> in developing scalable, high-performance, and visually appealing web applications.
       </Paragraph>
       <Heading
         as="h2"
