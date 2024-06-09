@@ -30,6 +30,7 @@ export default function Home() {
       </Heading>
       <Products />
       <TechStack />
+    
     </Container>
   );
 }

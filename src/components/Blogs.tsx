@@ -82,6 +82,7 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
                 </div>
               </div>
             </div>
+            
           </Link>
         </motion.div>
       ))}
