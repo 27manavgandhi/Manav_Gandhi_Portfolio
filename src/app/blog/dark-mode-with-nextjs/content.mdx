@@ -1,4 +1,6 @@
 import { BlogLayout } from "@/components/BlogLayout";
+import { CodeWindow } from "@/components/CodeWindow";
+
 
 export const meta = {
   date: "2023-04-19",
@@ -196,6 +198,7 @@ Next, we can add some animations to our toggle button to enhance user feedback. 
       transform: scale(1.2);
     .theme-toggle-button:hover::after {
       transform: scale(1.2);
+   
 ```
 </CodeWindow>
 
@@ -215,6 +218,7 @@ Finally, we can implement a media query to automatically switch between light an
        .text-gray-800 {
         color: #fff;
        }
+    }
     }
 ```
 </CodeWindow>
