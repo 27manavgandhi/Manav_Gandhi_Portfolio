@@ -16,8 +16,7 @@
   <h3 align="center">Manav Gandhi Portfolio</h3>
 
 
-a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
+\
 ## <a name="introduction">🤖 Introduction</a>
 
 Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
@@ -636,5 +635,6 @@ style={{
       }}
 ```
 </details>
+#
 
 
