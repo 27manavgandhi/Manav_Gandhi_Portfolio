@@ -97,10 +97,10 @@ export const products = [
     "A Object Detection Web App using the latest technologies: Next.js 14, React.js, TypeScript, Tailwind CSS, tensorflow for object detection, shadcn/ui for UI components.",
 
 
-    thumbnail: "/images/manavgandhi-boardwex (1).png",
+    thumbnail: "/images/manavgandhi-objectvision (1).png",
     images: [
-      "/images/manavgandhi-boardwex (1).png",
-      "/images/manavgandhi-boardwex (2).png",
+      "/images/manavgandhi-objectvision (1).png",
+      "/images/manavgandhi-objectvision (2).png",
       
     ],
     stack: ["Nextjs", "Tailwindcss", "ShadcnUI", "Typescript", "React", "Tensorflow"],
