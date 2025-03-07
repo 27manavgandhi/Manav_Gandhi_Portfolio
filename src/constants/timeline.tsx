@@ -1,7 +1,7 @@
 export const timeline = [
   {
     company: "Easemyroom",
-    title: "Full Stack Developer, Intern",
+    title: "Full Stack Developer, Full-Time",
     date: "May 2023 - Present",
     description: "Building the future of real estate",
     responsibilities: [
