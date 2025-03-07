@@ -19,7 +19,7 @@ export default function Home() {
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
         I&apos;m a software engineer with{" "}
-        <Highlight>2 years of internship experience</Highlight> in developing scalable, high-performance, and visually appealing web applications.
+        <Highlight>1 year of experience</Highlight> in developing scalable, high-performance, and visually appealing web applications.
       </Paragraph>
       <Heading
         as="h2"
