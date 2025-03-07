@@ -2,7 +2,7 @@ export const timeline = [
   {
     company: "Easemyroom",
     title: "Full Stack Developer, Intern",
-    date: "May 2023 - May 2024",
+    date: "May 2023 - Present",
     description: "Building the future of real estate",
     responsibilities: [
       "Developed a scalable web application using the MERN stack, increasing user engagement by 25% and reducing operational costs by 30%.",
