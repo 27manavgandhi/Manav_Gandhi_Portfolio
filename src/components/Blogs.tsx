@@ -26,7 +26,8 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
         >
           <Link
             key={`blog-${blog.title}`}
-            href={`/blog/${blog.slug}`}
+            href={blog.isExternal ? blog.url || blog.slug : `/blog/${blog.slug}`}
+            target={blog.isExternal ? "_blank" : undefined}
             className="relative my-10 block"
             onMouseEnter={() => setHovered(blog.slug)}
             onMouseLeave={() => setHovered(null)}
@@ -82,7 +83,7 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
                 </div>
               </div>
             </div>
-            
+
           </Link>
         </motion.div>
       ))}
